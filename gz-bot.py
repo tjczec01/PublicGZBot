@@ -48,7 +48,7 @@ import json
 import ctypes.util
 from asyncio import sleep
 
-token = "{}".format(os.environ['DISCORD_BOT_TOKEN'])
+# this is cuz cant make toekn public token = "{}".format(os.environ['DISCORD_BOT_TOKEN'])
 
 a = ctypes.util.find_library('opus')
 # print(a)
