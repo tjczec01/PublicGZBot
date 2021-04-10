@@ -1,0 +1,22 @@
+{
+   "name":"GZ-bot",
+   "description":"A barebones Python app, which can easily be deployed to Heroku.",
+   "image":"heroku/python",
+   "repository":"https://github.com/tjczec01/GZ-bot",
+   "keywords":[
+      "python"
+   ],
+   "addons":[
+      "heroku-postgresql"
+   ],
+   "env":{
+      "DISCORD_BOT_TOKEN":{
+         "description":"The secret key for discord bot.",
+         "generator":"NzQ4MDc1ODAzMzA0MDAxNTc3.X0YJ4g.-owcTLfFJ8zIi7AHBT0_o09sZnU"
+      },
+      "Travs": {
+         "generator": "493495354407256086"
+      }
+      
+   }
+}
